@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(235, 248, 253);
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #535353;
+}
+
+.first-co {
+  padding-left: 4rem;
+}
+
+.img-t {
+  height: auto;
+  width: 600px;
+}
+
+.price {
+  padding-top: 3rem;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.container-fluid {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer {
+  padding-top: 3rem;
+  text-align: center;
+}
+@media screen and (max-width: 1028px) {
+  .img-t {
+    position: static;
+    transform: rotate(0);
+  }
+}
